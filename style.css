@@ -1,0 +1,149 @@
+body{
+    width: 100%;
+    height: 100vh;
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 160px;
+    background: var(--Box, #C1E3D6);
+}
+
+form{
+    width: 698px;
+height: 698px;
+flex-shrink: 0;
+border-radius: 49.09px;
+background: var(--Form-Bg, #F6FBF9);
+}
+
+.text{
+position: absolute;
+width: 483.231px;
+height: 72.101px;
+flex-shrink: 0;
+margin-left: 110px;
+
+
+
+
+}
+
+.text > h1{
+    
+    color: var(--Heading, #212B27);
+text-align: center;
+font-family: Karla;
+font-size: 50.226px;
+font-style: normal;
+font-weight: 700;
+line-height: 71.794px; /* 130% */
+}
+
+.text1{
+
+position: absolute;
+top: 0;
+margin-top: 80px;
+width: 472.492px;
+height: 59.829px;
+flex-shrink: 0;
+margin-left: 10px;
+}
+
+.text1 > p{
+color: var(--Paragraph, #32403B);
+text-align: center;
+font-family: Karla;
+font-size: 24.011px;
+font-style: normal;
+font-weight: 400;
+line-height: 29.914px; /* 130% */
+}
+
+
+
+.place{
+    position: absolute;
+    margin-top: 180px;
+    margin-left: 70px;
+    
+
+}
+
+input{
+width: 575.275px;
+height: 84.374px;
+flex-shrink: 0;
+border-radius: 15.341px;
+border: 1.534px solid rgba(0, 0, 0, 0.10);
+background: #FFF;
+margin-top: 23px;
+color: rgba(0, 0, 0, 0.50);
+text-align: left 10px;
+font-family: Karla;
+font-size: 23.01px;
+font-style: normal;
+font-weight: 400;
+line-height: 19.5px; /* 84.746% */
+}
+
+input::placeholder{
+    padding-left: 33px;
+}
+
+
+.but1{
+    position: absolute;
+    margin-left: 100px;
+    margin-top: 40px;
+   
+
+}
+
+button{
+    width: 391.187px;
+    height: 90.51px;
+    flex-shrink: 0;
+    border-radius: 23.011px;
+    background: #84C7AE;
+    color: #FFF;
+text-align: center;
+font-family: Karla;
+font-size: 33.749px;
+font-style: normal;
+font-weight: 700;
+line-height: 43.874px; /* 130% */
+
+}
+
+.tags{
+    display: flex;
+width: 326.756px;
+height: 29.147px;
+flex-shrink: 0;
+align-items: center;
+margin-top: 180px;
+margin-left: 150px;
+}
+.tags > p{
+    color: var(--Paragraph, #32403B);
+text-align: center;
+font-family: Karla;
+font-size: 21.477px;
+font-style: normal;
+font-weight: 400;
+line-height: 27.92px; /* 130% */
+}
+
+.tags > a{
+    color: var(--Paragraph, #32403B);
+text-align: center;
+font-family: Karla;
+font-size: 21.477px;
+font-style: normal;
+font-weight: 400;
+line-height: 27.92px; /* 130% */
+}
+
+
